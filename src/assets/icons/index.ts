@@ -1,0 +1,8 @@
+export { default as LogoIcon } from "./icon-logo.svg"
+export { default as BedIcon } from "./icon-bed.svg"
+export { default as PlaneIcon } from "./icon-plane.svg"
+export { default as SearchIcon } from "./icon-search.svg"
+export { default as CheckmarkIcon } from "./icon-checkmark.svg"
+export { default as HeartIcon } from "./icon-heart.svg"
+export { default as CheckBoxIcon } from "./icon-checkbox.svg"
+export { default as EmptyCheckBoxIcon } from "./icon-empty-checkbox.svg"
