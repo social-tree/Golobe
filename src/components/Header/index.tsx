@@ -1,10 +1,12 @@
 "use client";
+
 import { ButtonGroup, Container, NavButton } from "./Header.styles";
-import Plane from "@/assets/icons/plane.svg";
+
 import Bed from "@/assets/icons/bed.svg";
 import Logo from "@/assets/icons/logo.svg";
+import Plane from "@/assets/icons/plane.svg";
 
-export const Header = () => {
+const Header = () => {
   return (
     <Container>
       <ButtonGroup>
@@ -29,3 +31,6 @@ export const Header = () => {
     </Container>
   );
 };
+
+
+export default Header;
