@@ -1,10 +1,11 @@
-import { GlobalStyles } from "@/assets/GlobalStyles/GlobalStyles";
+import { GlobalStyles } from "@/global/styles";
+import { ReactNode } from "react";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export interface IChildrenProp {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: IChildrenProp) {
   return (
     <html lang="en">
       {/*
