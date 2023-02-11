@@ -14,3 +14,9 @@ export interface IButtonProps {
     children?: string;
 }
 
+/* Button's Styled Component Prop type */
+
+export interface IStyledButtonProps {
+    size: TButtonSize,
+    type: TButtonType;
+}
