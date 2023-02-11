@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.14",
     "@next/font": "13.1.4",
     "@svgr/webpack": "^6.5.1",
     "@types/node": "18.11.18",

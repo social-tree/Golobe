@@ -1,11 +1,18 @@
-import { GlobalStyles } from "@/global/styles";
+import "@fontsource/montserrat/500.css"
+import "@fontsource/montserrat/600.css"
+import "@fontsource/montserrat/700.css"
+
+import { GlobalStyles } from "@/global/globalStyles";
 import { ReactNode } from "react";
 
-export interface IChildrenProp {
+export interface IProps {
   children: ReactNode;
 }
 
-export default function RootLayout({ children }: IChildrenProp) {
+
+
+
+export default function RootLayout({ children }: IProps) {
   return (
     <html lang="en">
       {/*

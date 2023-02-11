@@ -1,9 +1,16 @@
-import React from 'react'
+"use client"
 
-function index() {
+import React, { Fragment } from 'react'
+
+import { BackgroundImage } from './HomePage.styles'
+
+function HomePage() {
   return (
-    <div>index</div>
+    <Fragment>
+      <BackgroundImage src="images/aeroplane-bg.png" />
+      
+    </Fragment>
   )
 }
 
-export default index
+export default HomePage
