@@ -13,9 +13,10 @@ export const GlobalStyles = createGlobalStyle`
 html,
 body {
   max-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-font-style: normal;
+  font-style: normal;
 }
 
 a {

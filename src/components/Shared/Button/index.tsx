@@ -1,3 +1,5 @@
+"use client"
+
 import { ButtonText, StyledButton } from "./Button.styles";
 
 import type { IButtonProps } from "@/types";

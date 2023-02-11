@@ -1,4 +1,5 @@
-export { default as LogoIcon } from "./icon-logo.svg"
+export { default as DarkLogoIcon } from "./icon-dark-logo.svg"
+export { default as LightLogoIcon } from "./icon-light-logo.svg"
 export { default as BedIcon } from "./icon-bed.svg"
 export { default as PlaneIcon } from "./icon-plane.svg"
 export { default as SearchIcon } from "./icon-search.svg"

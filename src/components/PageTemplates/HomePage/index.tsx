@@ -1,15 +1,19 @@
 "use client"
 
-import React, { Fragment } from 'react'
+import React, { Fragment, ReactNode } from 'react'
+import { StyledHomePage, TopSection } from './HomePage.styles'
 
-import { BackgroundImage } from './HomePage.styles'
+export interface IProps {
+  children: ReactNode;
+}
 
-function HomePage() {
+function HomePage({ children }: IProps) {
   return (
-    <Fragment>
-      <BackgroundImage src="images/aeroplane-bg.png" />
-      
-    </Fragment>
+      <StyledHomePage>
+        <TopSection>
+          {children}
+        </TopSection>
+      </StyledHomePage>      
   )
 }
 

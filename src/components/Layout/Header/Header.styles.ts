@@ -19,5 +19,7 @@ export const NavButton = styled(Link)`
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
-  padding: 27px 0px;
+  padding: 60px 0px;
+  position: relative;
+  z-index: 5;
 `;
