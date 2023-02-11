@@ -1,9 +1,31 @@
-import React from 'react'
+import { ButtonText, StyledButton } from "./Button.styles";
 
-function index() {
+import type { IButtonProps } from "@/types";
+import React from "react";
+
+function Button({
+  type,
+  size,
+  iconEnd,
+  iconStart,
+  children,
+  click,
+}: IButtonProps) {
   return (
-    <div>index</div>
-  )
+    <StyledButton
+      onClick={click}
+      primary={type == "primary"}
+      secondary={type == "secondary"}
+      tertiary={type == "tertiary"}
+      small={size == "small"}
+      medium={size == "medium"}
+      large={size == "large"}
+    >
+      {iconStart}
+      <ButtonText>{children}</ButtonText>
+      {iconEnd}
+    </StyledButton>
+  );
 }
 
-export default index
+export default Button;
