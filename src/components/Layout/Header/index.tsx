@@ -17,16 +17,16 @@ const Header = () => {
   const isHomeClassName = pathname == "/" ? "home" : ''
 
   return (
-    <StyledHeader>
+    <StyledHeader className={!isHomeClassName ? "not-home" : ''}>
       <StyledNav>
-        <Container>
-          <NavButton className={isHomeClassName} href="/flights">
+        <Container className={isHomeClassName}>
+          <NavButton className={pathname == "/flights" ? "active" : ''} href="/flights">
             <PlaneIcon />
-            Find Flight
+            Find Flights
           </NavButton>
-          <NavButton className={isHomeClassName} href="/hotels">
+          <NavButton className={pathname == "/hotels" ? "active" : ''} href="/hotels">
             <BedIcon />
-            Find Flight
+            Find Stays
           </NavButton>
         </Container>
 
